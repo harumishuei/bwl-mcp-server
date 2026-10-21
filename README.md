@@ -46,25 +46,18 @@ cp .env.example .env
     "blueworks-live": {
       "command": "/Users/aa539999/.pyenv/versions/3.12.3/bin/python3",
       "args": [
-        "/Users/aa539999/Desktop/🐝/𝒟𝒫/BOBcode/bwl/bwl-mcp-server/__main__.py"
+        "/{path_to_mcp}/bwl-mcp-server/__main__.py"
       ],
       "env": {
-        "BWL_ACCOUNT": "your_account_name",
-        "BWL_CLIENT_ID": "your_client_id",
-        "BWL_CLIENT_SECRET": "your_client_secret"
+        "BWL_ACCOUNT": "<account name>",
+        "BWL_CLIENT_ID": "<client id>",
+        "BWL_CLIENT_SECRET": "<client secret>"
       },
       "disabled": false,
       "alwaysAllow": []
     }
   }
 }
-```
-
-### 4. Bob を再起動して確認
-
-Bob に話しかける:
-```
-Blueworks Live サーバーの情報を教えて
 ```
 
 ## 使えるツール
