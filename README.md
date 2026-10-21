@@ -44,7 +44,7 @@ cp .env.example .env
 {
   "mcpServers": {
     "blueworks-live": {
-      "command": "/Users/aa539999/.pyenv/versions/3.12.3/bin/python3",
+      "command": "/{path_to_folder}/.pyenv/versions/3.12.3/bin/python3",
       "args": [
         "/{path_to_mcp}/bwl-mcp-server/__main__.py"
       ],
