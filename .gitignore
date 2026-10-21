@@ -1,0 +1,13 @@
+# 環境変数（シークレット）
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+.venv/
+venv/
+
+# macOS
+.DS_Store
