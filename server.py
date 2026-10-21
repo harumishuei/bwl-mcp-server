@@ -2,9 +2,6 @@
 """
 Blueworks Live MCP Server
 
-IBM Blueworks Live の REST API を MCP ツールとして公開するサーバー。
-認証は OAuth2 (Service ID) または Basic 認証をサポート。
-
 環境変数:
     BWL_ACCOUNT   : アカウント名 (例: mycompany)
     BWL_CLIENT_ID : Service ID の Client ID (OAuth2)
